@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@300;500;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#nav-bar{
+    background-color:rgb(134, 147, 159);
+    padding:0.5rem 7rem;
+    position: sticky;
+    font-weight: 500;
+    top:0;
+    left:0;
+    z-index:100;  
+}
+.navbar .navbar-brand{
+    font-style: italic;
+    color:rgb(88, 1, 88);
+}
+#navbarNav .nav-link{
+    color: white;
+    font-size: 1.2rem;
+}
+#navbarNav a{
+    border-bottom: 2px solid transparent;
+}
+
+#navbarNav a:hover{
+    border-bottom: 2px solid rgb(238, 56, 56);
+}
+.signIn-btn{
+   border : none;
+   background-color:rgb(88, 1, 88);
+   border-radius: 10px;
+   padding:0.5rem 1rem;
+   /* margin-left: 0.3rem; */
+   color:aliceblue;
+   min-width:6rem;
+}
+
+/* home */
+section{
+    width:100%;
+    min-height :100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+}
+
+#home{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(images/bg.jfif);
+    background-size: cover;
+    background-position: center;
+}
+#home h1{
+    color:white;
+    font-size: 8em;
+    letter-spacing: 0.3rem;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 0px 3px 0px #ccc,
+                 0px 4px 0px #ccc,
+                 0px 5px 0px #ccc,
+                 0px 6px 0px #ccc,
+                 0px 7px 0px #ccc;    
+}
+
+#home p{
+    color:white;
+    font-size: 2rem;
+    font-family: cursive;
+}
+.input-container{
+    display: flex;
+}
+
+.email-holder{
+    width:30rem;
+    border:none;
+    padding:0.5rem 1rem;
+    border-radius: 2px;
+    font-size: 1rem;
+    margin-right:1rem;
+}
+
+.get-started{
+    padding:0.5rem 1rem;
+    border-radius: 2px;
+    font-size: 1rem;
+    background-color:rgb(88, 1, 88) ;
+    border: none;
+    border-radius: 10px;
+    color:white;
+}
+
+/* About */
+#about{
+    background: rgb(61, 92, 92);
+    display: flex;;
+    justify-content: center;
+    align-self: start;  
+    
+}
+
+#about h1{
+     color: #ccc;;
+     font-weight: 500;
+}
+
+#about p{
+    /* text-align: justify; */
+    color: #ccc;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    line-height: 2.3rem;   
+}
+
+/* product */
+
+#products{
+    background: rgb(229, 229, 229);
+}
+#products h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+#products img{
+    width:100% !important;
+    height:200px !important;  
+}
+
+.card{
+    width:250px !important; 
+    height:320px !important;
+    background: rgb(229, 229, 229) !important;
+    border: none !important;
+    box-shadow:  15px 20px 20px rgba(0,0,0,.3),
+    inset 4px 4px 10px white;
+    border-radius: 10px;
+    overflow: hidden ;
+    align-items: center;
+    justify-content: center;
+    margin:20px 60px;
+    transition: .2s;
+}
+
+.card:hover{
+    box-shadow:  inset 15px 20px 20px rgba(0,0,0,.3),  4px 4px 10px white;
+     transition: .2s;
+}
+
+.add-to-cart{
+   border : none;
+   background-color:rgb(88, 1, 88);
+   border-radius: 10px;
+   padding:0.5rem 1rem;
+   text-decoration: none;
+   color:aliceblue;
+   min-width:6rem;
+ }
+
+.cardTitle{
+    margin: 0.5rem 0 !important;
+}
+
+/* Contact */
+
+#contact img{
+        height:100%;
+}
+
+.box{
+    width:80%;
+    margin-top:10px;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+}
+
+#contact input{
+    margin:10px 10px;
+}
+#contact textarea{
+    margin:10px 10px 30px 10px;
+}
+
+.submit{
+    width:30px;
+    margin: auto;
+}
+
+#contact button{
+    align-items: center;
+}
+

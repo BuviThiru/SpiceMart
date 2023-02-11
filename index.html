@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spice Mart</title>
+    <link rel="stylesheet" href="spicePage.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg" id="nav-bar">
+      <div class="container-fluid mx-auto">
+        <a class="navbar-brand logo" href="#">SpiceMart</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <button class="signIn-btn my-lg-0 my-2">Sign in</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HOME -->
+
+    <section id="home">
+      <h1 class="text-center">ORGANIC SPICES</h1>
+      <p>Spice your daily life with orginal flavours</p>
+      <div class="input-container m-4">
+        <input
+          type="email"
+          class="email-holder"
+          placeholder="Enter your email Id:"
+        />
+        <button class="get-started">Get Started</button>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12 my-5">
+            <img
+              src="/images/about.png"
+              alt="SpiceMart Logo"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-6 col-md-6 col-12 p-2 my-5">
+            <h1>About Us</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Assumenda, soluta. Officiis aliquid numquam corporis,
+              necessitatibus placeat reprehenderit voluptate aspernatur in quod
+              minima dicta, illum ex quo autem. Iusto, animi delectus.Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+              soluta. Officiis aliquid numquam corporis, necessitatibus placeat
+              reprehenderit voluptate aspernatur in quod minima dicta, illum ex
+              quo autem.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products">
+      <div class="container m-5">
+        <h1 class="text-center my-3">Our Products</h1>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card" >
+              <img src="/images/img1.png" class="img-fluid card-img-top" alt="product" />
+              <div class="card-body text-center">
+                <h5 class="card-title cardTitle">Turmeric Powder</h5>
+                <a href="#" class="add-to-cart cart-btn">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card">
+              <img src="/images/img2.png" class="card-img-top" alt="product" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Chilly Powder</h5>
+                <a href="#" class="add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card">
+              <img src="/images/img3.png" class="card-img-top" alt="product" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Nutmeg Powder</h5>
+                <a href="#" class="add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card">
+              <img src="/images/img4.png" class="card-img-top" alt="product" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Mixed Spice Powder</h5>
+                <a href="#" class="add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card">
+              <img src="/images/img7.png" class="card-img-top" alt="product" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Immune Booster</h5>
+                <a href="#" class="add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card">
+              <img src="/images/img4.png" class="card-img-top" alt="product" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Dry Ginger Powder</h5>
+                <a href="#" class="add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card">
+              <img src="/images/img7.png" class="card-img-top" alt="product" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Mixed Nuts</h5>
+                <a href="#" class="add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card">
+              <img src="/images/img8.png" class="card-img-top" alt="product" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Whole Garam Masala</h5>
+                <a href="#" class="add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card">
+              <img src="/images/img9.png" class="card-img-top" alt="product" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Pepper Powder</h5>
+                <a href="#" class="add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+        <div class="container box">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <img src="/images/contact.jpg" class ="imf-fluid" alt = "Contact">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                     <h1>Contact us</h1>
+                     <form>
+                        <input type="text" class="form-control" placeholder ="Enter your name">
+                        <input type="email" class="form-control" placeholder ="Enter your email">
+                        <textarea class="form-control" placeholder = "Type your message here"></textarea>
+                        <button class = " add-to-cart submit">Submit</button>
+                     </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/spicePage.js"></script>
+  </body>
+</html>
